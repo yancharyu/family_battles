@@ -9,3 +9,11 @@ Family fight is a game in which 3 people are carefully selected from the family 
 Changeovers are prohibited by family rules.
 
 We don`t have any tools
+
+# Author
+
+* yancharyu
+
+# License
+
+[MIT](https://en.wikipedia.org/wiki/MIT_License).
