@@ -430,3 +430,235 @@
 
 [25-Oct-2020 09:32:51 UTC] カンガルーがあらわれた！
 [25-Oct-2020 09:32:51 UTC] 戦闘画面に遷移します
+[25-Oct-2020 12:55:37 UTC] スタートボタンが押されました
+[25-Oct-2020 12:55:37 UTC] 家族を構成します
+[25-Oct-2020 13:11:15 UTC] 家族を構成します
+[25-Oct-2020 13:11:15 UTC] POSTされました
+[25-Oct-2020 13:11:15 UTC] 選択されていません
+[25-Oct-2020 13:11:15 UTC] モンスターを生成します
+[25-Oct-2020 13:11:15 UTC] モンスターの作成に成功
+[25-Oct-2020 13:11:15 UTC] 作成したモンスター： Array
+(
+    [0] => Monster Object
+        (
+            [name:protected] => ゴリラ
+            [hp:protected] => 350
+            [skills:protected] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => 殴る
+                            [damage] => 130
+                            [prob] => 80
+                        )
+
+                    [1] => Array
+                        (
+                            [name] => にぎり潰す
+                            [damage] => 140
+                            [prob] => 70
+                        )
+
+                    [2] => Array
+                        (
+                            [name] => ける
+                            [damage] => 88
+                            [prob] => 95
+                        )
+
+                    [3] => Array
+                        (
+                            [name] => 叩きつける
+                            [damage] => 65
+                            [prob] => 90
+                        )
+
+                )
+
+            [img:protected] => img/noimage.png
+        )
+
+    [1] => Monster Object
+        (
+            [name:protected] => クマ
+            [hp:protected] => 400
+            [skills:protected] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => 引きちぎる
+                            [damage] => 110
+                            [prob] => 75
+                        )
+
+                    [1] => Array
+                        (
+                            [name] => 噛みつく
+                            [damage] => 125
+                            [prob] => 95
+                        )
+
+                    [2] => Array
+                        (
+                            [name] => ひっかく
+                            [damage] => 90
+                            [prob] => 100
+                        )
+
+                )
+
+            [img:protected] => img/noimage.png
+        )
+
+    [2] => Monster Object
+        (
+            [name:protected] => ワニ
+            [hp:protected] => 500
+            [skills:protected] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => 噛みつく
+                            [damage] => 106
+                            [prob] => 90
+                        )
+
+                    [1] => Array
+                        (
+                            [name] => 食いやぶる
+                            [damage] => 180
+                            [prob] => 70
+                        )
+
+                    [2] => Array
+                        (
+                            [name] => 尻尾アタック
+                            [damage] => 100
+                            [prob] => 85
+                        )
+
+                )
+
+            [img:protected] => img/noimage.png
+        )
+
+)
+
+[25-Oct-2020 13:11:15 UTC] ゴリラがあらわれた！
+[25-Oct-2020 13:11:15 UTC] 戦闘画面に遷移します
+[25-Oct-2020 13:13:04 UTC] スタートボタンが押されました
+[25-Oct-2020 13:13:04 UTC] 家族を構成します
+[25-Oct-2020 13:13:08 UTC] 家族を構成します
+[25-Oct-2020 13:13:08 UTC] POSTされました
+[25-Oct-2020 13:13:08 UTC] 選択されていません
+[25-Oct-2020 13:13:08 UTC] モンスターを生成します
+[25-Oct-2020 13:13:08 UTC] モンスターの作成に成功
+[25-Oct-2020 13:13:08 UTC] 作成したモンスター： Array
+(
+    [0] => Monster Object
+        (
+            [name:protected] => クマ
+            [hp:protected] => 400
+            [skills:protected] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => 引きちぎる
+                            [damage] => 110
+                            [prob] => 75
+                        )
+
+                    [1] => Array
+                        (
+                            [name] => 噛みつく
+                            [damage] => 125
+                            [prob] => 95
+                        )
+
+                    [2] => Array
+                        (
+                            [name] => ひっかく
+                            [damage] => 90
+                            [prob] => 100
+                        )
+
+                )
+
+            [img:protected] => img/noimage.png
+        )
+
+    [1] => Monster Object
+        (
+            [name:protected] => ライオン
+            [hp:protected] => 600
+            [skills:protected] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => 威嚇
+                            [damage] => 5
+                            [prob] => 100
+                        )
+
+                    [1] => Array
+                        (
+                            [name] => 噛みつく
+                            [damage] => 130
+                            [prob] => 80
+                        )
+
+                    [2] => Array
+                        (
+                            [name] => 噛みこ○す
+                            [damage] => 200
+                            [prob] => 75
+                        )
+
+                )
+
+            [img:protected] => img/noimage.png
+        )
+
+    [2] => Monster Object
+        (
+            [name:protected] => ゴリラ
+            [hp:protected] => 350
+            [skills:protected] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => 殴る
+                            [damage] => 130
+                            [prob] => 80
+                        )
+
+                    [1] => Array
+                        (
+                            [name] => にぎり潰す
+                            [damage] => 140
+                            [prob] => 70
+                        )
+
+                    [2] => Array
+                        (
+                            [name] => ける
+                            [damage] => 88
+                            [prob] => 95
+                        )
+
+                    [3] => Array
+                        (
+                            [name] => 叩きつける
+                            [damage] => 65
+                            [prob] => 90
+                        )
+
+                )
+
+            [img:protected] => img/noimage.png
+        )
+
+)
+
+[25-Oct-2020 13:13:08 UTC] クマがあらわれた！
+[25-Oct-2020 13:13:08 UTC] 戦闘画面に遷移します

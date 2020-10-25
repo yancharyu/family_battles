@@ -151,13 +151,6 @@ if (!empty($_POST['run'])) {
                 <button type="submit" value="2" class="skill" name="skill" <?php if (empty($battleFamily->getSkills()[2])) echo 'disabled'; ?>><?php echo (!empty($battleFamily->getSkills()[2]['name'])) ? $battleFamily->getSkills()[2]['name'] : 'ーーーーーー'; ?></button>
                 <button type="submit" value="3" class="skill" name="skill" <?php if (empty($battleFamily->getSkills()[3])) echo 'disabled'; ?>><?php echo (!empty($battleFamily->getSKills()[3]['name'])) ? $battleFamily->getSkills()[3]['name'] : 'ーーーーーー'; ?></button>
             </form>
-            <!-- <div class="js-bag-items">
-        <ul>
-          <li class="bag-item">マスターボール</li>
-          <li class="bag-item">鞭</li>
-          <li class="bag-item">同人誌</li>
-        </ul>
-      </div> -->
             <form action="" method="post" class="select-box">
                 <div>
                     <span class="triangle"><i class="fas fa-caret-right" aria-hidden="true"></i>
@@ -172,7 +165,7 @@ if (!empty($_POST['run'])) {
                 <div>
                     <span class="triangle"><i class="fas fa-caret-right" aria-hidden="true"></i>
                     </span>
-                    <input type="submit" value="交代" name="change">
+                    <input type="button" value="交代" name="change">
                 </div>
                 <div>
                     <span class="triangle"><i class="fas fa-caret-right" aria-hidden="true"></i>

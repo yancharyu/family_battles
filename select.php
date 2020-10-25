@@ -4,7 +4,7 @@ require('function.php');
 
 // 不正にこのページに遷移してきたら強制的に前のページに戻す
 if (!isset($_SESSION['check_flg']) && $_SESSION['check_flg'] !== 'ok') {
-    debug('不正な値です');
+    debug('不正なアクセスです');
     debug('トップページに遷移します');
     header('Location:index.php');
     exit();
@@ -35,11 +35,6 @@ if (!empty($_POST)) {
         $_SESSION['history'] = array();
         header('Location:index.php');
         exit();
-        // dump($key->getVal());
-        // debug('残り家族一覧', $_SESSION['family']);
-        // debug('取得した家族', $a);
-        // $_SESSION['battle_family'] = $_SESSION['family'][1];
-        // dump($_SESSION['battle_family']);
     } else {
         debug('選択されていません');
     }
@@ -209,10 +204,6 @@ if (!empty($_POST)) {
             font-size: 23px;
 
         }
-
-        /* .btn-container {
-      overflow: hidden;
-    } */
     </style>
 </head>
 

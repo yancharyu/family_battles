@@ -216,9 +216,8 @@ div.js-history-box {
 }
 
 .select-box div {
-  width: 48%;
+  width: 50%;
   height: 50%;
-  margin-left: 2%;
   box-sizing: border-box;
   line-height: 80px;
   float: left;
