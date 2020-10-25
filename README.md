@@ -16,4 +16,4 @@ We don`t have any tools
 
 # License
 
-[MIT](https://en.wikipedia.org/wiki/MIT_License).
+[MIT](https://github.com/yancharyu/php_objective_game/blob/master/LICENSE.txt)
